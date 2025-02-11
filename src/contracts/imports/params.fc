@@ -1,0 +1,5 @@
+;; Operation codes
+int op::transfer_usdt() asm "0x7362d09c PUSHINT";      ;; Receive USDT and swap for SSS
+int op::transfer_jetton() asm "0xf8a7ea5 PUSHINT";     ;; Standard Jetton transfer
+int op::withdraw() asm "0x47e4f3c1 PUSHINT";           ;; Owner withdrawal
+int op::update_rate() asm "0x5e91967c PUSHINT";        ;; Update exchange rate
