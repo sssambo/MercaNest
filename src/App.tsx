@@ -121,7 +121,7 @@ function App() {
             <div className="border-t border-white/10 pt-4">
               <div className="flex justify-between text-sm text-gray-300">
                 <span>Exchange Rate:</span>
-                <span>{contractState.data?.exchangeRate} MNest = 0.2 USDT </span>
+                <span>{contractState.data?.exchangeRate} MNest = 1 USDT </span>
               </div>
             </div>
           </div>
