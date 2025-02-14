@@ -38,9 +38,12 @@ function App() {
         <div className="max-w-2xl mx-auto">
           {/* Header */}
           <div className="flex items-center justify-between mb-12">
-            <div className="flex items-center space-x-3">
+            <div className="flex flex-col items-center space-x-3 column">
+            <div className="flex items-center space-x-3 column">
               <img src={logo} alt="MNest Logo" className="w-11 h-11 rounded-full" />
               <h1 className="text-3xl font-bold">MNest Token Swap</h1>
+              </div>
+              <p className="pt-3px" >Trade, Earn, Thrive {"-"}The MNest Way.</p>
             </div>
             <div className="flex items-center space-x-2 bg-white/10 rounded-lg px-4 py-2">
               <Wallet className="w-5 h-5 text-white" />
